@@ -132,7 +132,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS','Bootstrap','Sass','JavaScript', 'jQuery','REACT' ]}
+                items={['HTML','CSS','Bootstrap','Sass','JavaScript','REACT' ]}
               />
               <AboutInfoItem
                 title="BackEnd"
