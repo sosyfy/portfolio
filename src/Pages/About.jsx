@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutPage/AboutInfoItem'
 import ContactBanner from '../components/contact/ContactBanner';
+import sospeter from '../assets/images/sospeter.jpg'
 
 
 
@@ -29,6 +28,7 @@ const AboutPageStyles = styled.div`
       background-color: var(--deep-dark);
       padding: 0.5rem;
       border-radius: 8px;
+      color: cyan ;
     }
   }
   .about__heading {
@@ -82,12 +82,12 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Sospeter Karanja</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
-                <p>
-                  I am from chittagong, Bangladesh. A place of beauty and
+                <p className='ptext'>
+                  I am from Nairobi, Kenya. A place of beauty and
                   nature. Since my childhood, i love art and design. I always
                   try to design stuff with my unique point of view. I also love
                   to create things that can be usefull to others.
@@ -104,10 +104,10 @@ export default function About() {
                   place.
                 </p>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+                  <a  download href={sospeter} className='download-button'>Download Resume </a>
             </div>
             <div className="right">
-              <img src={AboutImg} alt="me" />
+              <img src={sospeter} alt="me" />
             </div>
           </div>
           <div className="about__info__items">
@@ -116,15 +116,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['Kiabu hHigh']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                title="University"
+                items={['Multimedia University of Kenya']}
               />
               <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="Other"
+                items={['Udemy and Scrimba']}
               />
             </div>
             <div className="about__info__item">
@@ -132,11 +132,11 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS','Bootstrap','Sass','JavaScript', 'jQuery','REACT' ]}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                items={['Node', 'Express',]}
               />
               <AboutInfoItem
                title="Design"
@@ -147,15 +147,12 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2020-2021"
+                items={['junior developer ']}
               />
+              
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
+                title="2021-"
                 items={['Freelance web Developer']}
               />
             </div>

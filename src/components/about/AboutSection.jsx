@@ -15,10 +15,7 @@ function About() {
           <img src={sospeter} alt="sospeter" />
         </div>
         <p className='card-description'>
-          Lorem ipsum dolor sit,
-           amet consectetur adipisicing elit. 
-           Porro facilis placeat neque harum recusandae nesc
-           iunt ab repellat error, magnam est?
+         A freelance web designer and developer from Nairobi, Kenya. I always make websites that have unique designs and also has a good performance rate.
         </p>
         <h3 className="card-name">
           Sopeter
@@ -31,12 +28,11 @@ function About() {
 
       <div className="right-div">
         <p className="sub-heading">Hi, This is Sospeter</p>
-        <h2 className="slogan">Freelance Frontend Developer</h2>
+        <h2 className="slogan">Freelance Web Developer</h2>
         <p className="right-text">
-          Lorem ipsum dolor sit amet consectetur a
-        dipisicing elit. Tempore consectetur eaque aperiam voluptate iusto e
-        xercitationem eum laudantium reiciendis. Porro velit, laboriosam obcae
-        cati facilis enim alias magni dolore pariatur minima nesciunt.
+         
+My vision is to make the world a better place. Now almost everything is becoming better than ever.
+ It is time for us to create more good stuff that helps the world to become a better place.
         </p>
         <div className="buttons">
           <a  download href={sospeter} className='download-button'>Download Resume </a>

@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Sospeter Karanja</h1>
           <div>
-            <p>
+            <p className='ptext'>
             A freelance web designer and developer from Nairobi, Kenya.
             I always make websites that have unique designs and also has a good
             performance rate.

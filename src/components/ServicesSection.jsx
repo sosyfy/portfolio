@@ -7,9 +7,10 @@ const Service =styled.div`
     text-align: center;
     gap:10rem;
 
-.service-title{
+.service-title h2{
   font-size: 2.5rem;
   font-family: 'montserrat ';
+  color: cyan;
 }
 .service-text {
    padding: 1rem;

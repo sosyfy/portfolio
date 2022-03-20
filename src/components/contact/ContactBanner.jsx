@@ -10,6 +10,9 @@ const ContactBannerStyles = styled.div`
     padding: 5rem 0rem;
     text-align: center;
   }
+   .contactBanner__heading1{
+     color:cyan;
+   }
   .contactBanner__heading {
     font-size: 4rem;
     margin-bottom: 2rem;
@@ -26,7 +29,7 @@ export default function ContactBanner() {
     <ContactBannerStyles>
       <div className="container">
         <div className="contactBanner__wrapper">
-          <h3>Have a project in mind</h3>
+          <h3 className='contactBanner__heading1'>Have a project in mind</h3>
           <h3 className="contactBanner__heading">Let me help you</h3>
           <Button btnText="Contact Now" btnLink="/contact" />
         </div>
