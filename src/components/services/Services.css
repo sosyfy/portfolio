@@ -1,0 +1,27 @@
+.services .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+Title {
+    padding: 0;
+}
+.services h2 {
+    text-align: center;
+}
+@media  screen and (max-width:768px){
+    .services {
+        padding: 0;
+    }
+    .services .container {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        margin: 0 auto;
+        margin-top: 5rem;
+        gap: 4rem;
+        padding: 0;
+    }
+}

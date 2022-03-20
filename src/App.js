@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Footer from './components/footer/Footer';
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Route exact path='/contact' element={<Contact/ >} ></Route>
 
     </Routes>
+    <Footer/>
     </Router>
     </>
   );

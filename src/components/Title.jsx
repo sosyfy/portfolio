@@ -27,8 +27,9 @@ const Tittle = styled.div`
   
 }
 @media only screen and (max-width:768px) {
+  padding: 0;
     .back_title {
-        font-size: 6.6rem;
+        font-size: 6rem;
     }
     .top_title{
         font-size: 3rem;
