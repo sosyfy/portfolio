@@ -4,8 +4,7 @@ import HeroImg from '../../assets/images/sospeter.jpg'
 import Button from '../Button'
 import socialArrow from '../../assets/images/social-media-arrow.svg'
 import {FiFacebook ,FiTwitter,FiInstagram,FiLinkedin} from 'react-icons/fi'
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
 
 
 function HeroSection() {
@@ -81,5 +80,5 @@ function HeroSection() {
   );
 }
 
-AOS.init();
+// AOS.init()
 export default HeroSection

@@ -4,7 +4,7 @@ import UTrackerImg from '../../assets/images/utracker.jpg';
 
 function Project() {
   return (
-    <div className="project" data-aos="fade-up" data-aos-duration="2000">
+    <div className="project" data-aos="fade-up">
       <div className="left-side">
         <div className="project-img">
           <img src={UTrackerImg} alt="" />

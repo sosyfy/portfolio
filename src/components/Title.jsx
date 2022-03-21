@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import AOS from "aos";
-import "aos/dist/aos.css"; 
 
 const Tittle = styled.div`
     position: relative;
@@ -57,5 +55,5 @@ function Title({titleTop='title' , titleBack="title"}) {
   );
 }
 
-AOS.init();
+
 export default Title

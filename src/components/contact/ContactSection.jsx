@@ -7,6 +7,7 @@ import Title from '../Title';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
+  overflow:hidden ;
   .contactSection__wrapper {
     display: flex;
     gap: 5rem;

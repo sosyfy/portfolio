@@ -7,13 +7,13 @@ import Services from '../components/services/Services'
 
 function Home() {
   return (
-    <>
+    <div style={{width: '100vw'}}>
     <HeroSection/>
     <AboutSection />
     <Services />
     <Experience />
     <ContactBanner />
-    </>
+    </div>
   )
 }
 

@@ -6,9 +6,11 @@ import sospeter from '../assets/images/sospeter.jpg'
 
 
 
+
+
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
-
+  overflow:hidden;
   .top-section {
     display: flex;
     align-items: center;
@@ -171,3 +173,7 @@ export default function About() {
     </>
   );
 }
+
+
+// You can also pass an optional settings object
+// below listed default settings
