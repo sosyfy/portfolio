@@ -86,11 +86,16 @@ export default function About() {
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
-                <p className='ptext'>
-                  I am from Nairobi, Kenya. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                <p
+                  className="ptext"
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                >
+                  I am from Nairobi, Kenya. A place of beauty and nature. Since
+                  my childhood, i love art and design. I always try to design
+                  stuff with my unique point of view. I also love to create
+                  things that can be usefull to others.
                   <br /> <br />
                   I started coding since I was in high school. Coding is also an
                   art for me. I love it and now I have the opportunity to design
@@ -104,9 +109,16 @@ export default function About() {
                   place.
                 </p>
               </div>
-                  <a  download href={sospeter} className='download-button'>Download Resume </a>
+              <a download href={sospeter} className="download-button">
+                Download Resume{" "}
+              </a>
             </div>
-            <div className="right">
+            <div
+              className="right"
+              data-aos="zoom-in"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <img src={sospeter} alt="me" />
             </div>
           </div>
@@ -114,50 +126,42 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
 
-              <AboutInfoItem
-                title="School"
-                items={['Kiambu High']}
-              />
+              <AboutInfoItem title="School" items={["Kiambu High"]} />
               <AboutInfoItem
                 title="University"
-                items={['Multimedia University of Kenya']}
+                items={["Multimedia University of Kenya"]}
               />
-              <AboutInfoItem
-                title="Other"
-                items={['Udemy and Scrimba']}
-              />
+              <AboutInfoItem title="Other" items={["Udemy and Scrimba"]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML','CSS','Bootstrap','Sass','JavaScript','REACT' ]}
+                items={[
+                  "HTML",
+                  "CSS",
+                  "Bootstrap",
+                  "Sass",
+                  "JavaScript",
+                  "REACT",
+                ]}
               />
+              <AboutInfoItem title="BackEnd" items={["Node", "Express"]} />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express',]}
+                title="Design"
+                items={["Photoshop", "After Effects", "Figma"]}
               />
-              <AboutInfoItem
-               title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
-              />
-              <AboutInfoItem
-               title="Databases"
-                items={['Mongo db', 'mySql']}
-              />
+              <AboutInfoItem title="Databases" items={["Mongo db", "mySql"]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
-              <AboutInfoItem
-                title="2020-2021"
-                items={['junior developer ']}
-              />
-              
+              <AboutInfoItem title="2020-2021" items={["junior developer "]} />
+
               <AboutInfoItem
                 title="2021-"
-                items={['Freelance web Developer']}
+                items={["Freelance web Developer"]}
               />
             </div>
           </div>

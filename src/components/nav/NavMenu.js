@@ -11,9 +11,9 @@ function NavMenu() {
     <div className="navbar">
       <div className="logo">
         <NavLink to="/">
-        <h2>
-          sos<span>pe</span>t<span>e</span>r
-        </h2>
+          <h2>
+            sos<span>pe</span>t<span>e</span>r
+          </h2>
         </NavLink>
       </div>
       <div className={!showNav ? "nav-items hide-item" : "nav-items"}>

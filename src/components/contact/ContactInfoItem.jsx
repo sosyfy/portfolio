@@ -29,7 +29,11 @@ export default function ContactInfoItem({
   text = 'I need text ',
 }) {
   return (
-    <ItemStyles>
+    <ItemStyles
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="icon">{icon}</div>
       <div className="info">
         <div>

@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
     --gray-2: #363636;
     --white : white;
     --black: black;
+    --toastify-text-color-success:  whitesmoke;
   }
   html{
     font-size: 10px;
@@ -24,6 +25,9 @@ const GlobalStyles = createGlobalStyle`
   }
   a{
     text-decoration: none;
+  }
+  a:hover {
+    transform: scale(1.06)
   }
   img, svg{
     width: 100%;

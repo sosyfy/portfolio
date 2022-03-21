@@ -35,18 +35,16 @@ const Service =styled.div`
 `
 function ServicesSection({icon, title , text}) {
   return (
-    <Service>
-        <div className="service-icon">
-           {icon}
-        </div>
-        <div className="service-title">
-            <h2>{title}</h2>
-        </div>
-        <div className="service-text">
-            <p> {text} </p>
-        </div>
+    <Service data-aos="zoom-in-up" data-aos-duration="2000">
+      <div className="service-icon">{icon}</div>
+      <div className="service-title">
+        <h2>{title}</h2>
+      </div>
+      <div className="service-text">
+        <p> {text} </p>
+      </div>
     </Service>
-  )
+  );
 }
 
 export default ServicesSection

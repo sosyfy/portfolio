@@ -1,1 +1,116 @@
- 
+ section {
+     padding-top: 2rem;
+ }
+ .experience {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 3rem;
+     padding-top: 4rem;
+ }
+  .frontend {
+     padding: 2.4rem 5rem;
+     border-radius: 2rem;
+     background: transparent;
+     border: 1px solid cyan;
+     transition: all 0.3s;
+     box-shadow: 0 0 20px aqua;
+  } 
+  
+  .backend {
+     padding: 2.4rem 5rem;
+     border-radius: 2rem;
+      background: transparent;
+     border: 1px solid cyan;
+     transition: all 0.3s;
+       box-shadow: 0 0 20px aqua;
+
+ }
+   .frontend:hover {
+      background: var(--black);
+      border-color: whitesmoke;
+      cursor: default;
+       box-shadow: 0 0 20px whitesmoke; 
+   }
+   .backend:hover {
+      background: var(--black);
+      border-color: whitesmoke;
+      cursor: default;
+       box-shadow: 0 0 20px whitesmoke; 
+
+  }
+   .experience  h2{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: cyan;
+   }
+    .experience  h4 {
+        font-size: 1.5rem;
+    }
+     .experience  small {
+         font-size: 1rem;
+     }
+   .experience-content  {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 1rem;
+       align-items: flex-start;
+   }
+   .experience-content .details {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       margin-bottom: 2rem;
+   }
+   .experience-content .details .icons {
+       color: aqua;
+       height: 2rem;
+       
+       font-size: 3rem;
+   }
+
+   @media  only screen and (max-width: 768px) {
+       .experience {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr;
+     padding: 0;
+     padding-top: 4rem;
+ }
+ .frontend {
+     max-width: 320px;
+     padding: 3rem;
+      margin: 0 auto;
+     border-radius: 2rem;
+     background: transparent;
+     border: 1px solid cyan;
+     transition: all 0.3s;
+     box-shadow: 0 0 20px aqua;
+     margin-bottom: 3rem;
+  } 
+  
+  .backend {
+     padding: 3rem ;
+     margin: 0 auto;
+      max-width: 320px;
+     border-radius: 2rem;
+      background: transparent;
+     border: 1px solid cyan;
+     transition: all 0.3s;
+       box-shadow: 0 0 20px aqua;
+
+ }
+   .frontend:hover {
+      background: var(--black);
+      border-color: whitesmoke;
+      cursor: default;
+       box-shadow: 0 0 20px whitesmoke; 
+   }
+   .backend:hover {
+      background: var(--black);
+      border-color: whitesmoke;
+      cursor: default;
+       box-shadow: 0 0 20px whitesmoke; 
+
+  }
+       
+   }

@@ -58,15 +58,15 @@ const FooterStyle = styled.div`
 
 export default function Footer() {
   return (
-    <FooterStyle>
+    <FooterStyle data-aos="fade-up">
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Sospeter Karanja</h1>
           <div>
-            <p className='ptext'>
-            A freelance web designer and developer from Nairobi, Kenya.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            <p className="ptext">
+              A freelance web designer and developer from Nairobi, Kenya. I
+              always make websites that have unique designs and also has a good
+              performance rate.
             </p>
           </div>
         </div>
@@ -75,24 +75,24 @@ export default function Footer() {
             heading="Important Links"
             links={[
               {
-                title: 'Home',
-                path: '/',
-                type: 'Link',
+                title: "Home",
+                path: "/",
+                type: "Link",
               },
               {
-                type: 'Link',
-                title: 'About',
-                path: '/about',
+                type: "Link",
+                title: "About",
+                path: "/about",
               },
               {
-                type: 'Link',
-                title: 'Projects',
-                path: '/projects',
+                type: "Link",
+                title: "Projects",
+                path: "/projects",
               },
               {
-                type: 'Link',
-                title: 'Contact',
-                path: '/contact',
+                type: "Link",
+                title: "Contact",
+                path: "/contact",
               },
             ]}
           />
@@ -102,16 +102,16 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+254113696930',
-                path: 'tel:+254113696930',
+                title: "+254113696930",
+                path: "tel:+254113696930",
               },
               {
-                title: 'sospeterkaranja02@gmail.com',
-                path: 'mailto:sospeterkaranja02@gmail.com',
+                title: "sospeterkaranja02@gmail.com",
+                path: "mailto:sospeterkaranja02@gmail.com",
               },
               {
-                title: 'Nairobi, Kenya',
-                path: 'http://google.com/maps',
+                title: "Nairobi, Kenya",
+                path: "http://google.com/maps",
               },
             ]}
           />
@@ -121,16 +121,16 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com/sosyfyed/',
+                title: "Facebook",
+                path: "http://facebook.com/sosyfyed/",
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com/sosyfyed/',
+                title: "Twitter",
+                path: "http://twitter.com/sosyfyed/",
               },
               {
-                title: 'Instagram',
-                path: 'http://instagram.com/sosyfyed/',
+                title: "Instagram",
+                path: "http://instagram.com/sosyfyed/",
               },
             ]}
           />
@@ -139,10 +139,14 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <div>
-            © 2022 - Sospeter Karanja | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://focus-sos.netlify.com">
+            © 2022 - Sospeter Karanja | Designed By{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="http://focus-sos.netlify.com"
+            >
               Sospeter
-            </a>{' '}
+            </a>{" "}
           </div>
         </div>
       </div>

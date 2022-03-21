@@ -26,10 +26,11 @@ margin-top: 2rem;
 
 function Button({
     btnLink="/" ,
+    
     btnText="test" ,
      outline= false}) {
   return (
-    <ButtonStyle outline={outline}>
+    <ButtonStyle  outline={outline}>
         <Link className='button'  to={btnLink}> {btnText} </Link>
     </ButtonStyle>
   )

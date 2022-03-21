@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 
 const Tittle = styled.div`
     position: relative;
@@ -48,11 +50,12 @@ const Tittle = styled.div`
 
 function Title({titleTop='title' , titleBack="title"}) {
   return (
-    <Tittle>
-                <h1 class="back_title">{titleBack}</h1>
-                <h1 class="top_title">{titleTop}</h1>
+    <Tittle data-aos="zoom-in">
+      <h1 class="back_title">{titleBack}</h1>
+      <h1 class="top_title">{titleTop}</h1>
     </Tittle>
-  )
+  );
 }
 
+AOS.init();
 export default Title

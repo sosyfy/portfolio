@@ -1,6 +1,7 @@
-import React, { useRef, useState } from 'react';
-import styled from 'styled-components';
-import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from "react";
+import styled from "styled-components";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toast";
 
 const FormStyle = styled.form`
   width: 100%;
@@ -27,7 +28,7 @@ const FormStyle = styled.form`
     min-height: 250px;
     resize: vertical;
   }
-  button[type='submit'] {
+  button[type="submit"] {
     background-color: var(--gray-1);
     color: var(--black);
     font-size: 2rem;
@@ -41,22 +42,59 @@ const FormStyle = styled.form`
 `;
 
 export default function ContactForm() {
-    const form = useRef()
-    const sendEmail = (e) => {
+  const form = useRef();
+  const [sucess , setSucess] = useState(false)
+  const notify = () =>
+    toast.success(" Email sent succesfully!", {
+      position: "bottom-right",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  
 
-    emailjs.sendForm('service_iz9dbqt', 'template_f7t4ttk', form.current, '8JOkKpblj2PI8swVN')
-      .then((result) => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_iz9dbqt",
+        "template_f7t4ttk",
+        form.current,
+        "8JOkKpblj2PI8swVN"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+          clear()
+          setSucess(true)
+          notify()
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      );
   };
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const clear = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
   return (
     <>
-      <FormStyle ref={form} onSubmit={sendEmail}>
+      <FormStyle
+        ref={form}
+        onSubmit={sendEmail}
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -64,6 +102,7 @@ export default function ContactForm() {
               type="text"
               id="name"
               name="name"
+              required
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -75,6 +114,7 @@ export default function ContactForm() {
             <input
               type="email"
               id="email"
+              required
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -87,6 +127,7 @@ export default function ContactForm() {
             <textarea
               type="text"
               id="message"
+              required
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
@@ -94,6 +135,19 @@ export default function ContactForm() {
           </label>
         </div>
         <button type="submit">Send</button>
+        {sucess && (
+          <ToastContainer
+            position="bottom-right"
+            autoClose={1000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClickF
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
+        )}
       </FormStyle>
     </>
   );
