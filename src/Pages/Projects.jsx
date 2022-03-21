@@ -1,10 +1,10 @@
 import React from 'react'
+import ProjectsSection from '../components/projects/ProjectsSection'
 
 function Projects() {
   return (
     <>
-    <h2 > comming soon .....</h2>
-    <p>Awaiting deployment</p>
+<ProjectsSection/>
     </>
   )
 }

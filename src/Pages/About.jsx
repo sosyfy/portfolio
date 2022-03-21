@@ -116,7 +116,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Kiabu hHigh']}
+                items={['Kiambu High']}
               />
               <AboutInfoItem
                 title="University"
@@ -141,6 +141,10 @@ export default function About() {
               <AboutInfoItem
                title="Design"
                 items={['Photoshop', 'After Effects', 'Figma']}
+              />
+              <AboutInfoItem
+               title="Databases"
+                items={['Mongo db', 'mySql']}
               />
             </div>
             <div className="about__info__item">

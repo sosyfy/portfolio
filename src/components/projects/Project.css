@@ -1,0 +1,151 @@
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 12rem;
+}
+.project:nth-child(even){
+    flex-direction: row-reverse;
+}
+.project .left-side {
+    flex: 1;
+}
+.project .right-side {
+    flex: 1;
+    margin-left: -150px;
+    padding: 5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px cyan;
+    z-index: 2;
+    position: relative;
+    background-color: rgb(24, 23, 23);
+}
+.project:nth-child(even) .right-side{
+    margin-left: 0;
+}
+.project:nth-child(even) .left-side{
+    margin-left: -150px;
+}
+.project .left-side .project-img {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 20px aqua;
+}
+.project .left-side .project-img img {
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.project .left-side .project-img img:hover {
+    transform: scale(1.1);
+}
+.project .right-side .project-title {
+    font-size: 2.5rem;
+    font-family: 'montserrat';
+    margin-bottom: 1rem;
+}
+.project .right-side .project-subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+ .project .technologies {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+ .project .item {
+    background-color: var(--deep-dark);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.project-buttons {
+    display: flex;
+    gap: 2rem;
+}
+.project-buttons .github {
+      font-size: 2rem;
+      background-color:var(--gray-1);
+      border-radius:18px;
+     padding: 0.7em 1.9em ;
+     margin-top: 1.5rem;
+     border: 2px solid var(--gray-1);
+     color: black;
+}
+.project-buttons .preview {
+         font-size: 2rem;
+      background-color: transparent;
+      border-radius:18px;
+     padding: 0.7em 1.9em ;
+     margin-top: 1.5rem;
+     border: 2px solid var(--gray-1);
+     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+    .project .left-side {
+        width: 100%;
+    }
+    .project .right-side {
+        width: 90%;
+        margin-left: 0;
+        margin-top: -150px;
+    }
+    .project:nth-child(even){
+        flex-direction: column;
+    } 
+    .project:nth-child(even) .left-side {
+       margin-left: 0;
+    }
+   .technologies {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+   }
+   .items {
+      position: initial;
+      gap: 1rem;
+    }
+    .project-buttons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.project-buttons .github {
+      font-size: 1.7rem;
+      background-color:var(--gray-1);
+      border-radius:18px;
+     padding: 0.6em 1.7em ;
+     margin-top: 1.5rem;
+     border: 2px solid var(--gray-1);
+     color: black;
+}
+.project-buttons .preview {
+         font-size: 1.7rem;
+      background-color: transparent;
+      border-radius:18px;
+     padding: 0.6em 1.7em ;
+     margin-top: 1.5rem;
+     border: 2px solid var(--gray-1);
+     color: white;
+}
+
+  
+  }
+@media only screen  and (max-width:450px ){
+    .project-buttons {
+    display: flex;
+    gap: 0.3rem;
+    flex-direction: column;
+}
+.project-buttons a {
+   width: 100%;
+   text-align: center;
+}
+}

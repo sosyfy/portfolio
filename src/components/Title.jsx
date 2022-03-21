@@ -35,6 +35,15 @@ const Tittle = styled.div`
         font-size: 3rem;
     }
 }
+@media only screen and (max-width:468px) {
+  padding: 0;
+    .back_title {
+        font-size: 5rem;
+    }
+    .top_title{
+        font-size: 2.5rem;
+    }
+}
 `
 
 function Title({titleTop='title' , titleBack="title"}) {

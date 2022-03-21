@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
+import emailjs from '@emailjs/browser';
 
 const FormStyle = styled.form`
   width: 100%;
@@ -40,12 +41,22 @@ const FormStyle = styled.form`
 `;
 
 export default function ContactForm() {
+    const form = useRef()
+    const sendEmail = (e) => {
+
+    emailjs.sendForm('service_iz9dbqt', 'template_f7t4ttk', form.current, '8JOkKpblj2PI8swVN')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   return (
     <>
-      <FormStyle>
+      <FormStyle ref={form} onSubmit={sendEmail}>
         <div className="form-group">
           <label htmlFor="name">
             Your Name
