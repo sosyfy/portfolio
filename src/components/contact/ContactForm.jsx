@@ -42,7 +42,7 @@ const FormStyle = styled.form`
 `;
 
 export default function ContactForm() {
-  const form = useRef();
+  const form = useRef()
   const [sucess , setSucess] = useState(false)
   const notify = () =>
     toast.success(" Email sent succesfully!", {
