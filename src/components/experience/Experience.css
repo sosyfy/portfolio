@@ -75,6 +75,7 @@
      grid-template-rows: 1fr 1fr;
      padding: 0;
      padding-top: 4rem;
+     overflow: hidden;
  }
  .frontend {
      max-width: 320px;
