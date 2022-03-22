@@ -1,34 +1,29 @@
-import React from 'react'
-import styled from 'styled-components';
-import Project from './Project';
-import Title from '../Title'
+import React from "react";
+import styled from "styled-components";
+import Project from "./Project";
+import Title from "../Title";
 
 const ProjectsArea = styled.div`
-   padding:6rem 0;
-   .projects-con {
+  padding: 6rem 0;
+  .projects-con {
     margin-top: 6rem;
-}
-@media only screen and (max-width:768px){
+  }
+  @media only screen and (max-width: 768px) {
     .projects-con {
-        padding: 0;
+      padding: 0;
     }
-}
-
-
-`
+  }
+`;
 
 function ProjectsSection() {
   return (
     <ProjectsArea>
-        <Title titleBack='projects' titleTop='my projects'/>
-        <div className="container projects-con">
-            <Project/>
-            <Project/>
-            <Project/>
-        </div>
-
+      <Title titleBack="projects" titleTop="my projects" />
+      <div className="container projects-con">
+        <Project /> 
+      </div>
     </ProjectsArea>
-  )
+  );
 }
 
-export default ProjectsSection
+export default ProjectsSection;

@@ -59,7 +59,6 @@ const FooterStyle = styled.div`
 
 export default function Footer() {
   return (
-    
     <FooterStyle data-aos="fade-up">
       <div className="container">
         <div className="footer__col1">
@@ -133,6 +132,14 @@ export default function Footer() {
               {
                 title: "Instagram",
                 path: "http://instagram.com/sosyfyed/",
+              },
+              {
+                title: "Github",
+                path: "https://github.com/sosyfy",
+              },
+              {
+                title: "LinkedIn",
+                path: "https://www.linkedin.com/in/sospeter-karanja-a636b6230",
               },
             ]}
           />

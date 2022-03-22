@@ -3,6 +3,8 @@ import Title from '../Title'
 import Button from '../Button'
 import './About.css'
 import sospeter from '../../assets/images/avatar3.jpg'
+import resume from "../../assets/images/Resume.pdf";
+
 
 function About() {
   return (
@@ -38,7 +40,7 @@ function About() {
             stuff that helps the world to become a better place.
           </p>
           <div className="buttons">
-            <a download href={sospeter} className="download-button">
+            <a download href={resume} className="download-button">
               Download Resume{" "}
             </a>
 
