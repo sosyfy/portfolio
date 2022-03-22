@@ -2,7 +2,8 @@ import React from 'react'
 import './Services.css'
 import Title from '../Title'
 import ServicesSection from '../ServicesSection'
-import {MdDesktopMac,MdCode,MdPhonelinkSetup} from 'react-icons/md'
+import {MdDesktopMac} from 'react-icons/md'
+import { FaCode, FaCameraRetro } from "react-icons/fa";
 
 
 function Services() {
@@ -16,12 +17,12 @@ function Services() {
    title="Web Design"
     text="I do UI/UX design for your website that helps website to get a unique and elegant look. "/>
    <ServicesSection 
-   icon={MdCode}
+   icon={<FaCode />}
    title="Web Development" 
    text="I also develop websites.I create responsive  high performance websites with blazing fast speeds. "/> 
    <ServicesSection 
-   icon={MdPhonelinkSetup}
-   title="Bug Fixes" text="I can fix responsive design issues on your website and any UI related bugs. "/>
+   icon={<FaCameraRetro />}
+   title="UI/UX Research" text="I do reseach for stunning design ideas that pop and proffesional  "/>
  </div>
 
 </div> 

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutPage/AboutInfoItem'
 import ContactBanner from '../components/contact/ContactBanner';
 import sospeter from '../assets/images/aboutme.jpg'
+import resume from '../assets/images/Resume.pdf'
 
 
 
@@ -111,7 +112,7 @@ export default function About() {
                   place.
                 </p>
               </div>
-              <a download href={sospeter} className="download-button">
+              <a download href={resume} className="download-button">
                 Download Resume{" "}
               </a>
             </div>
