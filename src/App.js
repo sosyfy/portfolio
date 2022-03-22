@@ -8,6 +8,7 @@ import Contact from './Pages/Contact';
 import Footer from './components/footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -19,6 +20,7 @@ export default function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <NavMenu />
         <Routes>
           <Route path="/" element={<Home />}></Route>

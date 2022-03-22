@@ -5,6 +5,7 @@ import FooterCol from './FooterCol';
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
   padding-top: 10rem;
+  overflow: hidden;
   .container {
     display: flex;
     gap: 3rem;
@@ -12,7 +13,7 @@ const FooterStyle = styled.div`
   .footer__col1 {
     flex: 2;
   }
-  .footer__col1 p{
+  .footer__col1 p {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 2rem;
@@ -58,6 +59,7 @@ const FooterStyle = styled.div`
 
 export default function Footer() {
   return (
+    
     <FooterStyle data-aos="fade-up">
       <div className="container">
         <div className="footer__col1">

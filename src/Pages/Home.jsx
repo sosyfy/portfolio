@@ -6,8 +6,9 @@ import HeroSection from '../components/hero/HeroSection'
 import Services from '../components/services/Services'
 
 function Home() {
+  
   return (
-    <div style={{width: '100vw'}}>
+    <div>
     <HeroSection/>
     <AboutSection />
     <Services />

@@ -1,6 +1,7 @@
 .about {
     padding: 4rem 0;
-    overflow: hidden;  
+    overflow: hidden; 
+     overflow: hidden; 
 }
 .about .container {
     margin-top: 1rem;
@@ -20,13 +21,17 @@
      min-height: 400px;
  }
     .about .left .card .card-image {
-        width: 75px;
-        height: 75px;
+        width: 80px;
+        height: 80px;
         margin: 0 auto;
         overflow: hidden;
+        align-items: center;
         border-radius: 50%;
         margin-bottom: 2rem;
     }
+     .about .left .card .card-image img {
+         object-fit:inherit;
+     }
     .about .left .card .card-description {
         margin-bottom: 2rem;
         font-size: 1rem;

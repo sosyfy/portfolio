@@ -3,9 +3,11 @@ import { NavLink } from 'react-router-dom'
 import {BiGridAlt} from 'react-icons/bi'
 import { CgClose } from "react-icons/cg";
 import './Navmenu.css'
+import useReading from './Scrollbar';
 
 function NavMenu() {
     const [showNav , setShowNav] = useState(false)
+    const completion = useReading()
 
   return (
     <div className="navbar">
@@ -44,6 +46,10 @@ function NavMenu() {
       <div className="mobile-menu-icon" onClick={() => setShowNav(!showNav)}>
         <BiGridAlt />
       </div>
+      <span 
+        className='progress'
+        style={{ transform :`translateX(${completion-100}%)`}}
+       />
     </div>
   );
 }

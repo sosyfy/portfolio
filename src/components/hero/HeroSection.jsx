@@ -1,7 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
-import HeroImg from '../../assets/images/sospeter.jpg'
-import Button from '../Button'
+import HeroImg from '../../assets/images/hero.png'
 import socialArrow from '../../assets/images/social-media-arrow.svg'
 import {FiFacebook ,FiTwitter,FiInstagram,FiLinkedin} from 'react-icons/fi'
 // import AOS from "aos";
@@ -18,13 +17,7 @@ function HeroSection() {
         <div className="hero__img" >
           <img src={HeroImg} alt="sospeter" />
         </div>
-        <div className="hero__info">
-          <p>
-            I am a Freelance Web Developer for 1 year. I love to build and
-            develop new web experiences for people.
-          </p>
-          <Button btnLink="/projects" btnText="see my works" outline={false} />
-        </div>
+
         <div className="hero__socials" data-aos="fade-right">
           <div className="hero__social_indicator">
             <p>follow</p>

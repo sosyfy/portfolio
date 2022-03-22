@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Title'
 import Button from '../Button'
 import './About.css'
-import sospeter from '../../assets/images/sospeter.jpg'
+import sospeter from '../../assets/images/avatar3.jpg'
 
 function About() {
   return (

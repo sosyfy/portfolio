@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutPage/AboutInfoItem'
 import ContactBanner from '../components/contact/ContactBanner';
-import sospeter from '../assets/images/sospeter.jpg'
+import sospeter from '../assets/images/aboutme.jpg'
 
 
 
 
 
 const AboutPageStyles = styled.div`
-  padding: 20rem 0 10rem 0;
+  padding: 10rem 0 10rem 0;
   overflow:hidden;
   .top-section {
     display: flex;
