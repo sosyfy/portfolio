@@ -3,10 +3,51 @@ import "./Project.css";
 import furn from "../../assets/images/project2.jpg";
 import criba from "../../assets/images/project1.jpg";
 import cara from "../../assets/images/project4.jpg";
+import tesla from "../../assets/images/tesla.jfif"
 
 function Project() {
   return (
     <div>
+      <div className="project" data-aos="fade-up">
+        <div className="left-side">
+          <div className="project-img">
+            <img src={tesla} alt="" />
+          </div>
+        </div>
+        <div className="right-side">
+          <h2 className="project-title"> Tesla </h2>
+          <h3 className="project-subtitle">Clone Website</h3>
+          <p className="project-description ptext">
+            This is a replica of the Tesla's website.Built in React js and styled components,
+            the website is fully responsive with features such as routing and conditional rendering.
+          </p>
+          <div className="technologies">
+            <div className="item">
+              <p>REACT JS</p>
+            </div>
+            <div className="item">
+              <p>CSS</p>
+            </div>
+          
+          </div>
+          <div className="project-buttons">
+            <a
+              href="https://github.com/sosyfy/tesla-clone"
+              target=" _blank"
+              className="download-button github"
+            >
+              github
+            </a>
+            <a
+              href="https://tesla-clone-sos.netlify.app/"
+              target=" _blank"
+              className="download-button preview"
+            >
+              Preview
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="project" data-aos="fade-up">
         <div className="left-side">
           <div className="project-img">
