@@ -58,6 +58,8 @@ const FooterStyle = styled.div`
 `;
 
 export default function Footer() {
+  const year = new Date().getFullYear()
+
   return (
     <FooterStyle data-aos="fade-up">
       <div className="container">
@@ -148,7 +150,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <div>
-            © 2022 - Sospeter Karanja | Designed By{" "}
+            © {year} - Sospeter Karanja | Designed By{" "}
             <a
               target="_blank"
               rel="noreferrer"

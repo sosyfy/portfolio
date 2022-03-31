@@ -5,7 +5,7 @@ function useReading() {
     useEffect(()=>{
         const updateScroll = ()=>{
            const scrollProgress = window.scrollY
-           const scrollHeight = document.body.scrollHeight -window.innerHeight
+           const scrollHeight = document.body.scrollHeight - window.innerHeight
         
         if(scrollHeight){
             setCompletion(
