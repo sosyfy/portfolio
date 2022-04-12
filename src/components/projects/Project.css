@@ -12,6 +12,7 @@
 .project .left-side {
     flex: 1;
 }
+
 .project .right-side {
     flex: 1;
     margin-left: -150px;
