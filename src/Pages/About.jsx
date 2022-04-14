@@ -155,6 +155,7 @@ export default function About() {
                 items={["Photoshop", "After Effects", "Figma"]}
               />
               <AboutInfoItem title="Databases" items={["Mongo db", "mySql"]} />
+              <AboutInfoItem title="Tools" items={["Git" ,"Github","Netlify" , "Vs Code "]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
