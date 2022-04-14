@@ -129,7 +129,6 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
 
-              <AboutInfoItem title="School" items={["Kiambu High"]} />
               <AboutInfoItem
                 title="University"
                 items={["Multimedia University of Kenya"]}
