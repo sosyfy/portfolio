@@ -4,6 +4,7 @@ import furn from "../../assets/images/project2.jpg";
 import criba from "../../assets/images/project1.jpg";
 import cara from "../../assets/images/project4.jpg";
 import tesla from "../../assets/images/tesla.jfif"
+import whatsapp from "../../assets/images/whatsapp.png"
 
 function Project() {
   return (
@@ -40,6 +41,46 @@ function Project() {
             </a>
             <a
               href="https://tesla-clone-sos.netlify.app/"
+              target=" _blank"
+              className="download-button preview"
+            >
+              Preview
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="project" data-aos="fade-up">
+        <div className="left-side">
+          <div className="project-img">
+            <img src={whatsapp} alt="" />
+          </div>
+        </div>
+        <div className="right-side">
+          <h2 className="project-title"> WhatsApp </h2>
+          <h3 className="project-subtitle">Clone Website</h3>
+          <p className="project-description ptext">
+            This is a replica of the WhatsApp.com website.Built in React js and Tailwind Css,
+            the website is pixel perfect and almost similar to the original one.
+          </p>
+          <div className="technologies">
+            <div className="item">
+              <p>REACT JS</p>
+            </div>
+            <div className="item">
+              <p>Tailwind Css</p>
+            </div>
+          
+          </div>
+          <div className="project-buttons">
+            <a
+              href="https://github.com/sosyfy/whatsapp-clone"
+              target=" _blank"
+              className="download-button github"
+            >
+              github
+            </a>
+            <a
+              href="https://whatsapp-clone-by-sos.netlify.app/"
               target=" _blank"
               className="download-button preview"
             >

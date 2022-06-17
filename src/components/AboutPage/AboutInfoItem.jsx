@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import {motion } from 'framer-motion'
+
 
 const AboutItemStyles = styled.div`
   display: flex;
@@ -47,9 +49,12 @@ export default function AboutInfoItem({
       <h1 className="title">{title}</h1>
       <div className="items">
         {items.map((item, index) => (
-          <div className="item" key={index}>
+          <motion.div  initial={{ scale : 0 , opacity: 0 }}
+          animate={{ scale: [0,1.3,1] , opacity: [0,1] }}
+          exit={{ scale: 0 }}
+          transition={{ duration: 0.7, delay : index , type:"spring" }} className="item" key={index}>
             <p>{item}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </AboutItemStyles>

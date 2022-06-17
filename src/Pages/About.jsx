@@ -4,7 +4,7 @@ import AboutInfoItem from '../components/AboutPage/AboutInfoItem'
 import ContactBanner from '../components/contact/ContactBanner';
 import sospeter from '../assets/images/aboutme.jpg'
 import resume from '../assets/images/Resume.pdf'
-
+import {motion } from 'framer-motion'
 
 
 
@@ -79,7 +79,7 @@ const AboutPageStyles = styled.div`
 
 export default function About() {
   return (
-    <>
+    <motion.div initial={{scale : 0}} animate={{scale : [0,1.05,1]}} exit={{scale: 0}} transition={{duration: 0.5 ,type: "spring"}}>
       <AboutPageStyles>
         <div className="container">
           <div className="top-section">
@@ -144,12 +144,13 @@ export default function About() {
                   "HTML",
                   "CSS",
                   "Bootstrap",
+                  "Tailwind Css",
                   "Sass",
                   "JavaScript",
                   "REACT",
                 ]}
               />
-              <AboutInfoItem title="BackEnd" items={["Node", "Express"]} />
+              <AboutInfoItem title="BackEnd" items={["Node", "Express" , "Firebase"]} />
               <AboutInfoItem
                 title="Design"
                 items={["Photoshop", "After Effects", "Figma"]}
@@ -171,7 +172,7 @@ export default function About() {
         </div>
         <ContactBanner />
       </AboutPageStyles>
-    </>
+    </motion.div>
   );
 }
 
