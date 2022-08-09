@@ -9,7 +9,7 @@ import { FaCode, FaCameraRetro } from "react-icons/fa";
 function Services() {
   return (
 <div className="services">
-  <h2>What i will do for you</h2>
+  <h2  style={{color: "cyan"}} >What i will do for you</h2>
  <Title titleTop='my services' titleBack='services' />
  <div className="container">
    <ServicesSection 

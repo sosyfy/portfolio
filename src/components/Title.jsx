@@ -11,6 +11,7 @@ const Tittle = styled.div`
   text-transform: uppercase;
   font-size: 9rem;
   color: transparent;
+  opacity: 10%;
   -webkit-text-stroke: 0.3px #f3f7fa;
   background-color: transparent;
   z-index: -1;
@@ -46,9 +47,9 @@ const Tittle = styled.div`
 }
 `
 
-function Title({titleTop='title' , titleBack="title"}) {
+function Title({titleTop='' , titleBack=""}) {
   return (
-    <Tittle data-aos="zoom-in">
+    <Tittle>
       <h1 class="back_title">{titleBack}</h1>
       <h1 class="top_title">{titleTop}</h1>
     </Tittle>

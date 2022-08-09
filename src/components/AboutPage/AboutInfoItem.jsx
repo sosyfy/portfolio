@@ -52,7 +52,7 @@ export default function AboutInfoItem({
           <motion.div  initial={{ scale : 0 , opacity: 0 }}
           animate={{ scale: [0,1.3,1] , opacity: [0,1] }}
           exit={{ scale: 0 }}
-          transition={{ duration: 0.7, delay : index , type:"spring" }} className="item" key={index}>
+          transition={{ duration: 0.7, delay : index/5 , type:"spring" }} className="item" key={index}>
             <p>{item}</p>
           </motion.div>
         ))}

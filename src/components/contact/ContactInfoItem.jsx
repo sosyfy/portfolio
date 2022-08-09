@@ -37,7 +37,7 @@ export default function ContactInfoItem({
       <div className="icon">{icon}</div>
       <div className="info">
         <div>
-          <p>{text}</p>
+          <h3>{text}</h3>
         </div>
       </div>
     </ItemStyles>

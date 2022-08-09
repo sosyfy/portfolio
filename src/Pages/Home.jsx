@@ -15,7 +15,8 @@ function Home() {
     <AboutSection />
     <Services />
     <Experience />
-    <ContactBanner />
+    <ContactBanner  titleTop="Projects" ln="All my projects --> " l="projects" img="present"/>
+    <ContactBanner t="Have a project in mind" b="Let me help you" ln="Contact me" l="contact"/>
     </div>
   )
 }

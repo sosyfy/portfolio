@@ -67,9 +67,9 @@ export default function Footer() {
           <h1 className="footer__col1__title">Sospeter Karanja</h1>
           <div>
             <p className="ptext">
-              A freelance web designer and developer from Nairobi, Kenya. I
-              always make websites that have unique designs and also has a good
-              performance rate.
+            I transform websites for clients, making every website look desirable and giving life to their websites.
+           <br />
+            What Can Web Do For You?
             </p>
           </div>
         </div>
@@ -104,18 +104,12 @@ export default function Footer() {
           <FooterCol
             heading="Contact Info"
             links={[
-              {
-                title: "+254113696930",
-                path: "tel:+254113696930",
-              },
+
               {
                 title: "sospeterkaranja02@gmail.com",
                 path: "mailto:sospeterkaranja02@gmail.com",
               },
-              {
-                title: "Nairobi, Kenya",
-                path: "http://google.com/maps",
-              },
+
             ]}
           />
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { MdEmail, MdLocalPhone } from 'react-icons/md';
+import {  FiLinkedin ,FiGithub } from 'react-icons/fi';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
 import Title from '../Title';
@@ -59,9 +60,9 @@ export default function ContactSection() {
         <Title titleTop='get in touch' titleBack='contact' />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+254113696930" />
+            <ContactInfoItem icon={<FiGithub />} text="https://github.com/sosyfy" />
             <ContactInfoItem icon={<MdEmail />} text="sospeterkaranja02@gmail.com" />
-            <ContactInfoItem text="Nairobi, Kenya" />
+            <ContactInfoItem icon={<FiLinkedin/>} text="https://www.linkedin.com/in/sosyfy" />
           </div>
           <div className="right">
             <ContactForm />

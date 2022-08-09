@@ -21,7 +21,18 @@
     box-shadow: 0 0 20px cyan;
     z-index: 2;
     position: relative;
+   
     background-color: rgb(24, 23, 23);
+}
+.beat {
+    position: absolute;
+    height: calc(  25rem ) ;
+    width: 100%;
+    background-color: var(--deep-dark);
+    z-index: -1200;
+    overflow: hidden;
+    top: 0;
+    border-radius: 12px;
 }
 .project:nth-child(even) .right-side{
     margin-left: 0;

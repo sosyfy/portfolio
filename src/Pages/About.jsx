@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutPage/AboutInfoItem'
 import ContactBanner from '../components/contact/ContactBanner';
 import sospeter from '../assets/images/aboutme.jpg'
-import resume from '../assets/images/Resume.pdf'
-import {motion } from 'framer-motion'
+import resume from '../assets/images/sospeters-resume.pdf'
+import { motion } from 'framer-motion'
 
 
 
@@ -79,7 +79,7 @@ const AboutPageStyles = styled.div`
 
 export default function About() {
   return (
-    <motion.div initial={{scale : 0}} animate={{scale : [0,1.05,1]}} exit={{scale: 0}} transition={{duration: 0.5 ,type: "spring"}}>
+    <motion.div initial={{ scale: 0 }} animate={{ scale: [0, 1.05, 1] }} exit={{ scale: 0 }} transition={{ duration: 0.5, type: "spring" }}>
       <AboutPageStyles>
         <div className="container">
           <div className="top-section">
@@ -87,7 +87,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Sospeter Karanja</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Web Developer</h2>
               <div className="about__info">
                 <p
                   className="ptext"
@@ -95,21 +95,12 @@ export default function About() {
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
                 >
-                  I am from Nairobi, Kenya. A place of beauty and nature. Since
-                  my childhood, i love art and design. I always try to design
-                  stuff with my unique point of view. I also love to create
-                  things that can be usefull to others.
+                 I have been working as a Front End Web Developer for the past three years, and during that time I have developed a strong understanding of the latest technologies and trends in the industry. I am well-versed in using HTML, CSS, and JavaScript, and I have experience with popular frameworks such as React Js and React Native. I am also familiar with using various content management systems, such as WordPress and Shopify.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I am a motivated and creative individual who is always looking for new ways to improve my skills. I am passionate about web development and enjoy working on projects that challenge me to think outside the box. I am confident that I have the skills and drive to be a valuable member of any team.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  I stay updated on all the latest trends and developments associated with this industry and I have the knowledge to apply this information where appropriate. I also have the ability to adhere to all standards, rules and coding standards set forth by management.
                 </p>
               </div>
               <a download href={resume} className="download-button">
@@ -131,9 +122,9 @@ export default function About() {
 
               <AboutInfoItem
                 title="University"
-                items={["Multimedia University of Kenya"]}
+                items={["Multimedia University of Kenya - Bachelor of Software Engineering"]}
               />
-              <AboutInfoItem title="Other" items={["Udemy and Scrimba"]} />
+              <AboutInfoItem title="Other" items={["Udemy and Scrimba - Frontend and web dev courses"]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
@@ -141,31 +132,32 @@ export default function About() {
               <AboutInfoItem
                 title="FrontEnd"
                 items={[
+                  "React Js",
+                  "JavaScript",
+                  "React Native",
                   "HTML",
                   "CSS",
-                  "Bootstrap",
                   "Tailwind Css",
+                  "Bootstrap",
                   "Sass",
-                  "JavaScript",
-                  "REACT",
                 ]}
               />
-              <AboutInfoItem title="BackEnd" items={["Node", "Express" , "Firebase"]} />
+              <AboutInfoItem title="BackEnd" items={["Node", "Express", "Firebase"]} />
               <AboutInfoItem
                 title="Design"
                 items={["Photoshop", "After Effects", "Figma"]}
               />
               <AboutInfoItem title="Databases" items={["Mongo db", "mySql"]} />
-              <AboutInfoItem title="Tools" items={["Git" ,"Github","Netlify" , "Vs Code "]} />
+              <AboutInfoItem title="Tools" items={["Git", "Github", "Netlify", "Vs Code "]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
-              <AboutInfoItem title="2020-2021" items={["junior developer "]} />
+              <AboutInfoItem title="2020-2021" items={["Freelance developer "]} />
 
               <AboutInfoItem
-                title="2021-"
-                items={["Freelance web Developer"]}
+                title="2022 - present "
+                items={["Junior Web Developer"]}
               />
             </div>
           </div>
