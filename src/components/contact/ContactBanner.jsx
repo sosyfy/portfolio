@@ -35,7 +35,7 @@ export default function ContactBanner(props) {
           <div className='beat'>
            {props.img &&  <img src={img} alt="" />}
           </div>
-          <h3 className='contactBanner__heading1'>{props.t}</h3>
+          <h2 className='contactBanner__heading1'>{props.t}</h2>
           <h3 className="contactBanner__heading">{props.b}</h3>
           <Button btnText={props.ln} btnLink={props.l} />
         </div>

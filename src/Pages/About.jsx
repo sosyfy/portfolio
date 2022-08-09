@@ -162,7 +162,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <ContactBanner />
+        <ContactBanner t="Have a project in mind" b="Let me help you" ln="Contact me" l="contact"/>
       </AboutPageStyles>
     </motion.div>
   );

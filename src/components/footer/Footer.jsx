@@ -71,6 +71,9 @@ export default function Footer() {
            <br />
             What Can Web Do For You?
             </p>
+            <br />
+            <h2>Email me at <span style={{color : "cyan"}}>sospeterkaranja02@gmail</span> </h2>
+            <br />
           </div>
         </div>
         <div className="footer__col2">
@@ -100,19 +103,7 @@ export default function Footer() {
             ]}
           />
         </div>
-        <div className="footer__col3">
-          <FooterCol
-            heading="Contact Info"
-            links={[
-
-              {
-                title: "sospeterkaranja02@gmail.com",
-                path: "mailto:sospeterkaranja02@gmail.com",
-              },
-
-            ]}
-          />
-        </div>
+     
         <div className="footer__col4">
           <FooterCol
             heading="social Links"

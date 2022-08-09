@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MdEmail, MdLocalPhone } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import {  FiLinkedin ,FiGithub } from 'react-icons/fi';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
