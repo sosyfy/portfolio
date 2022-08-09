@@ -22,7 +22,7 @@ const AboutPageStyles = styled.div`
     flex: 3;
   }
   .right {
-    flex: 2;
+    flex: 3;
   }
   .about__subheading {
     font-size: 2.2rem;
