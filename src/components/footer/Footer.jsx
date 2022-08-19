@@ -67,12 +67,12 @@ export default function Footer() {
           <h1 className="footer__col1__title">Sospeter Karanja</h1>
           <div>
             <p className="ptext">
-            I transform websites for clients, making every website look desirable and giving life to their websites.
+            I design and establish interactive & dynamic websites that guarantee high traffic, page views, maximum user experience and subsequently increase company sales.
            <br />
-            What Can Web Do For You?
+            What Can I Do For You?
             </p>
             <br />
-            <h2>Email me at <span style={{color : "cyan"}}>sospeterkaranja02@gmail</span> </h2>
+            <h2>Email me at <span style={{color : "cyan"}}>sospeterkaranja02@gmail.com</span> </h2>
             <br />
           </div>
         </div>

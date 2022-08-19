@@ -12,6 +12,7 @@ import { motion } from 'framer-motion'
 const AboutPageStyles = styled.div`
   padding: 10rem 0 10rem 0;
   overflow:hidden;
+
   .top-section {
     display: flex;
     align-items: center;
@@ -87,7 +88,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Sospeter Karanja</span>
               </p>
-              <h2 className="about__heading">A Web Developer</h2>
+              <h2 className="about__heading">A Front-End Web Developer</h2>
               <div className="about__info">
                 <p
                   className="ptext"
