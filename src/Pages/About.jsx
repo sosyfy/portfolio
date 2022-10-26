@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutPage/AboutInfoItem'
 import ContactBanner from '../components/contact/ContactBanner';
 import sospeter from '../assets/images/aboutme.jpg'
-import resume from '../assets/images/sospeters-resume.pdf'
+import resume from '../assets/images/updatedResume.pdf'
 import { motion } from 'framer-motion'
 
 
@@ -43,6 +43,9 @@ const AboutPageStyles = styled.div`
     margin-bottom: 4rem;
     .para {
       max-width: 100%;
+    }
+    .ptext {
+      font-size: 1.5rem;
     }
   }
   .right {
@@ -88,7 +91,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Sospeter Karanja</span>
               </p>
-              <h2 className="about__heading">A Front-End Web Developer</h2>
+              <h2 className="about__heading">A Web Developer</h2>
               <div className="about__info">
                 <p
                   className="ptext"
@@ -96,7 +99,7 @@ export default function About() {
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
                 >
-                 I have been working as a Front End Web Developer for the past three years, and during that time I have developed a strong understanding of the latest technologies and trends in the industry. I am well-versed in using HTML, CSS, and JavaScript, and I have experience with popular frameworks such as React Js and React Native. I am also familiar with using various content management systems, such as WordPress and Shopify.
+                 I have been working as a Fullstack Web Developer for the past three years, and during that time I have developed a strong understanding of the latest technologies and trends in the industry. I am well-versed in using HTML, CSS, and JavaScript, and I have experience with popular frameworks such as React Js, Node js ,Express js and React Native. I am also familiar with using various content management systems, such as WordPress and Shopify.
                   <br /> <br />
                   I am a motivated and creative individual who is always looking for new ways to improve my skills. I am passionate about web development and enjoy working on projects that challenge me to think outside the box. I am confident that I have the skills and drive to be a valuable member of any team.
                   <br />
@@ -125,7 +128,7 @@ export default function About() {
                 title="University"
                 items={["Multimedia University of Kenya - Bachelor of Software Engineering"]}
               />
-              <AboutInfoItem title="Other" items={["Udemy and Scrimba - Frontend and web dev courses"]} />
+              <AboutInfoItem title="Other" items={["Online courses and webinars"]} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
@@ -143,12 +146,12 @@ export default function About() {
                   "Sass",
                 ]}
               />
-              <AboutInfoItem title="BackEnd" items={["Node", "Express", "Firebase"]} />
+              <AboutInfoItem title="BackEnd" items={["Node Js", "Express Js", "Firebase", "SQL", "REST API's"]} />
               <AboutInfoItem
                 title="Design"
-                items={["Photoshop", "After Effects", "Figma"]}
+                items={["Photoshop", "Figma"]}
               />
-              <AboutInfoItem title="Databases" items={["Mongo db", "mySql"]} />
+              <AboutInfoItem title="Databases" items={["Mongo DB", "mySql"]} />
               <AboutInfoItem title="Tools" items={["Git", "Github", "Netlify", "Vs Code "]} />
             </div>
             <div className="about__info__item">
@@ -157,8 +160,13 @@ export default function About() {
               <AboutInfoItem title="2020-2021" items={["Freelance developer "]} />
 
               <AboutInfoItem
-                title="2022 - present "
+                title="2021 - early 2022"
                 items={["Junior Web Developer"]}
+              />
+
+              <AboutInfoItem
+                title="2022 - present "
+                items={["software Developer"]}
               />
             </div>
           </div>

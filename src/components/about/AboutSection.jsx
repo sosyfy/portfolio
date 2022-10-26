@@ -3,7 +3,7 @@ import Title from '../Title'
 import Button from '../Button'
 import './About.css'
 import sospeter from '../../assets/images/avatar3.jpg'
-import resume from "../../assets/images/sospeters-resume.pdf";
+import resume from "../../assets/images/updatedResume.pdf";
 
 
 function About() {
@@ -22,7 +22,7 @@ function About() {
               <img src={sospeter} alt="sospeter" />
             </div>
             <p className="card-description">
-            Experienced Web developer with strong background  in developing award winning applications for diverse clientele. 2years of industry experience including creating and maintaining better code base for reusability
+            Experienced Web developer with strong background  in developing award winning applications for diverse clientele. 3 years of industry experience including creating and maintaining better code base for reusability
             </p>
             <h3 className="card-name">Sospeter</h3>
             {/* <p className="card-subtitle">Fronted web developer</p> */}
