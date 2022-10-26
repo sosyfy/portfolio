@@ -22,7 +22,7 @@ function About() {
               <img src={sospeter} alt="sospeter" />
             </div>
             <p className="card-description">
-            Experienced front end developer with strong background  in developing award winning applications for diverse clientele. 2years of industry experience including creating and maintaining better code base for reusability
+            Experienced Web developer with strong background  in developing award winning applications for diverse clientele. 2years of industry experience including creating and maintaining better code base for reusability
             </p>
             <h3 className="card-name">Sospeter</h3>
             {/* <p className="card-subtitle">Fronted web developer</p> */}
@@ -31,7 +31,7 @@ function About() {
 
         <div className="right-div">
           {/* <p className="sub-heading">Hi, This is Sospeter</p> */}
-          <h2 className="slogan">Front-End Web Developer</h2>
+          <h2 className="slogan">Web Developer</h2>
           <p className="right-text" data-aos="fade-left">
         I have developed a strong understanding of the latest technologies and trends in the industry. 
           </p>

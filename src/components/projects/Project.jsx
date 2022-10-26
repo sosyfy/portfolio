@@ -19,12 +19,15 @@ function Project() {
           <h2 className="project-title"> Tesla </h2>
           <h3 className="project-subtitle">Clone Website</h3>
           <p className="project-description ptext">
-            This is a replica of the Tesla's website.Built in React js and styled components,
+            This is a replica of the Tesla's landing page website.Built in React js and styled components,
             the website is fully responsive with features such as routing and conditional rendering.
           </p>
           <div className="technologies">
             <div className="item">
               <p>REACT JS</p>
+            </div>
+            <div className="item">
+              <p>STYLED COMPONENTS</p>
             </div>
             <div className="item">
               <p>CSS</p>

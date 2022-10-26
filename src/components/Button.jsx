@@ -12,6 +12,7 @@ margin-top: 2rem;
       props.outline ? "transparent" : 'var(--gray-1)'};
   padding: 0.7em 2em;
   border-radius:8px;
+  white-space: nowrap;
   border: 2px solid var(--gray-1);
   display: inline-block;
   color:  ${(props) =>
