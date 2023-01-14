@@ -3,7 +3,7 @@ import "./Project.css";
 import furn from "../../assets/images/project2.jpg";
 import criba from "../../assets/images/project1.jpg";
 import cara from "../../assets/images/project4.jpg";
-import tesla from "../../assets/images/tesla.jfif"
+import resume from "../../assets/images/resumi.jpg"
 import whatsapp from "../../assets/images/whatsapp.png"
 
 function Project() {
@@ -12,7 +12,7 @@ function Project() {
       <div className="project" data-aos="fade-up">
         <div className="left-side">
           <div className="project-img">
-            <img src={tesla} alt="" />
+            <img className="max" src={resume} alt="" />
           </div>
         </div>
         <div className="right-side">

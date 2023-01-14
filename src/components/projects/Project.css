@@ -50,6 +50,13 @@
     object-fit:cover;
     transition: all 0.3s ease-in-out;
 }
+
+.max {
+    transform: scale(1.2); 
+}
+.project .left-side .project-img .max:hover {
+    transform: scale(1.25); 
+}
 .project .left-side .project-img img:hover {
     transform: scale(1.1);
 }
