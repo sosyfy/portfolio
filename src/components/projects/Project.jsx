@@ -35,14 +35,14 @@ function Project() {
           </div>
           <div className="project-buttons">
             <a
-              href="https://github.com/sosyfy/tesla-clone"
+              href="https://github.com/sosyfy/resume-builder"
               target=" _blank"
               className="download-button github"
             >
               Github
             </a>
             <a
-              href="https://tesla-clone-sos.netlify.app/"
+              href="https://resume-gen-sosyfy.netlify.app/"
               target=" _blank"
               className="download-button preview"
             >
