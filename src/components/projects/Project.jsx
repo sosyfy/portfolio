@@ -16,23 +16,22 @@ function Project() {
           </div>
         </div>
         <div className="right-side">
-          <h2 className="project-title"> Tesla </h2>
-          <h3 className="project-subtitle">Clone Website</h3>
+          <h2 className="project-title"> RESUME GEN</h2>
+          <h3 className="project-subtitle">Resume Builder </h3>
           <p className="project-description ptext">
-            This is a replica of the Tesla's landing page website.Built in React js and styled components,
-            the website is fully responsive with features such as routing and conditional rendering.
+            A web application that allows users to create and customize professional resumes in a simple and efficient manner. Built with React, the application utilizes the power of Tailwind CSS for styling and Zustand for state management. The end result can be downloaded in both PDF and Print format.
           </p>
           <div className="technologies">
             <div className="item">
               <p>REACT JS</p>
             </div>
             <div className="item">
-              <p>STYLED COMPONENTS</p>
+              <p>ZUSTAND</p>
             </div>
             <div className="item">
-              <p>CSS</p>
+              <p>TAILWIND CSS</p>
             </div>
-          
+
           </div>
           <div className="project-buttons">
             <a
@@ -40,7 +39,7 @@ function Project() {
               target=" _blank"
               className="download-button github"
             >
-              github
+              Github
             </a>
             <a
               href="https://tesla-clone-sos.netlify.app/"
@@ -59,20 +58,20 @@ function Project() {
           </div>
         </div>
         <div className="right-side">
-          <h2 className="project-title"> WhatsApp </h2>
+          <h2 className="project-title"> WHATSAPP.COM </h2>
           <h3 className="project-subtitle">Clone Website</h3>
           <p className="project-description ptext">
-            This is a replica of the WhatsApp.com website.Built in React js and Tailwind Css,
-            the website is pixel perfect and almost similar to the original one.
+            This project is a clone of the WhatsApp.com landing page, built with React and Tailwind CSS. It is a static web page that closely mimics the design and layout of the original WhatsApp website.
+            It is a static web page that closely mimics the design and layout of the original WhatsApp website.
           </p>
           <div className="technologies">
             <div className="item">
               <p>REACT JS</p>
             </div>
             <div className="item">
-              <p>Tailwind Css</p>
+              <p>TAILWIND CSS</p>
             </div>
-          
+
           </div>
           <div className="project-buttons">
             <a
@@ -80,7 +79,7 @@ function Project() {
               target=" _blank"
               className="download-button github"
             >
-              github
+              Github
             </a>
             <a
               href="https://whatsapp-clone-by-sos.netlify.app/"
@@ -102,9 +101,8 @@ function Project() {
           <h2 className="project-title"> CARA </h2>
           <h3 className="project-subtitle">Ecommerce Website</h3>
           <p className="project-description ptext">
-            Cara is a clothing Ecommerce website. I implemented basic routing in
-            JavaScript and also dynamic data change. The site has cool
-            animations and is fully responsive.
+            This Clothing Website is a dynamic and responsive web application that allows users to browse and purchase clothing items.
+            e website features a clean and visually pleasing design, easy navigation, and various interactive elements
           </p>
           <div className="technologies">
             <div className="item">
@@ -123,7 +121,7 @@ function Project() {
               target=" _blank"
               className="download-button github"
             >
-              github
+              Github
             </a>
             <a
               href="https://sosyfy.github.io/commerce-web/"
@@ -178,23 +176,21 @@ function Project() {
       <div className="project" data-aos="fade-up">
         <div className="left-side">
           <div className="project-img">
-            <img src={furn} alt="" />
+            <img src="https://media.sproutsocial.com/uploads/2022/09/Instagram-Templates.svg" alt="" />
           </div>
         </div>
         <div className="right-side">
-          <h2 className="project-title"> FURN. </h2>
-          <h3 className="project-subtitle">Furniture Website</h3>
+          <h2 className="project-title"> INSTABOT </h2>
+          <h3 className="project-subtitle">Instagram Autopost Bot</h3>
           <p className="project-description ptext">
-            Furn is a mordern furniture store landing page that displays all
-            important andhot products of a website.It is optimized to look great
-            for all devices you have.
+            The Instagram Bot is a tool that allows users to automatically repost content from Instagram on their own account. It works by scraping posts from a specified Instagram user or hashtag and then reposting them on a schedule using a cron job.
           </p>
           <div className="technologies">
             <div className="item">
-              <p>HTML</p>
+              <p>NODE JS </p>
             </div>
             <div className="item">
-              <p>SASS</p>
+              <p>EXPRESS JS</p>
             </div>
             <div className="item">
               <p>JAVASCSRIPT</p>
@@ -202,19 +198,81 @@ function Project() {
           </div>
           <div className="project-buttons">
             <a
-              href="https://github.com/sosyfy/responsive-furniture-website"
+              href="https://github.com/sosyfy/instabot"
               target=" _blank"
               className="download-button github"
             >
               github
             </a>
+
+          </div>
+        </div>
+      </div>
+      <div className="project" data-aos="fade-up">
+        <div className="left-side">
+          <div className="project-img">
+            <img src="https://codersera.com/blog/wp-content/uploads/2019/06/What-is-an-API.png" alt="" />
+          </div>
+        </div>
+        <div className="right-side">
+          <h2 className="project-title"> E-COMMERCE API</h2>
+          <h3 className="project-subtitle">Rest API</h3>
+          <p className="project-description ptext">
+            This E-Commerce API is a flexible and powerful tool for building e-commerce websites and applications.
+            The API offers a wide range of endpoints for various e-commerce functionalities such as product management, customer authentication, and order processing.
+          </p>
+          <div className="technologies">
+            <div className="item">
+              <p>NODE JS </p>
+            </div>
+            <div className="item">
+              <p>EXPRESS JS</p>
+            </div>
+            <div className="item">
+              <p>MONGO DB</p>
+            </div>
+          </div>
+          <div className="project-buttons">
             <a
-              href="https://furn-website.netlify.app/"
+              href="https://github.com/sosyfy/e-commerce-rest-api"
               target=" _blank"
-              className="download-button preview"
+              className="download-button github"
             >
-              Preview
+              github
             </a>
+
+          </div>
+        </div>
+      </div>
+      <div className="project" data-aos="fade-up">
+        <div className="left-side">
+          <div className="project-img">
+            <img src="https://cdn.c-zentrix.com/blog-images/whatsapp-bot-for-customer-service.jpeg" alt="" />
+          </div>
+        </div>
+        <div className="right-side">
+          <h2 className="project-title"> WHATS_BOT </h2>
+          <h3 className="project-subtitle">WhatsApp User Bot</h3>
+          <p className="project-description ptext">
+            A WhatsApp user bot built with Node.js for automating messaging and providing custom commands for users and also performing administrative actions such as adding and blocking users.
+          </p>
+          <div className="technologies">
+            <div className="item">
+              <p>NODE JS </p>
+            </div>
+            <div className="item">
+              <p>JAVASCSRIPT</p>
+            </div>
+          </div>
+          <div className="project-buttons">
+            <a
+              href="https://github.com/sosyfy/whatsapp-bot"
+              target=" _blank"
+              className="download-button github"
+            >
+              Github
+            </a>
+
           </div>
         </div>
       </div>

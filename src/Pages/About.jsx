@@ -154,21 +154,7 @@ export default function About() {
               <AboutInfoItem title="Databases" items={["Mongo DB", "mySql"]} />
               <AboutInfoItem title="Tools" items={["Git", "Github", "Netlify", "Vs Code "]} />
             </div>
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem title="2020-2021" items={["Freelance developer "]} />
-
-              <AboutInfoItem
-                title="2021 - early 2022"
-                items={["Junior Web Developer"]}
-              />
-
-              <AboutInfoItem
-                title="2022 - present "
-                items={["software Developer"]}
-              />
-            </div>
+            
           </div>
         </div>
         <ContactBanner t="Have a project in mind" b="Let me help you" ln="Contact me" l="contact"/>
